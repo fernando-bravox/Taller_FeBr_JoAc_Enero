@@ -173,7 +173,7 @@ fun HomePlace(navController: NavController) {
                 }
 
                 ElevatedButton(
-                    onClick = { navController.navigate("paramescreen") },
+                    onClick = { navController.navigate("home") },
                     modifier = Modifier
                         .padding(16.dp)
                         .width(300.dp),
